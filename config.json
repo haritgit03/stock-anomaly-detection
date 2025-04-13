@@ -1,0 +1,17 @@
+{
+    "AAPL": {
+      "strategy": "spike",
+      "thresholdPercent": 3,
+      "windowSec": 30
+    },
+    "TSLA": {
+      "strategy": "movingAverage",
+      "deviationPercent": 5,
+      "sampleSize": 10
+    },
+    "GOOGL": {
+      "strategy": "spike",
+      "thresholdPercent": 3,
+      "windowSec": 20
+    } 
+  }
