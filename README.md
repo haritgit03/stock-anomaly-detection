@@ -1,7 +1,7 @@
 Setup Instructions
 
 1. Clone the Repository
-git clone https://github.com/haritgit03/stock-anomaly-detector.git
+git clone https://github.com/haritgit03/stock-anomaly-detection.git
 cd stock-anomaly-detector
 
 2. Install Dependencies
@@ -18,7 +18,7 @@ POST /alerts
 Fetch the last 10 alerts (anomalies) that were triggered.
 Request:
   Headers:
-  Authorization: Bearer YOUR_SECRET_TOKEN
+  Authorization: Bearer harirajToken123
 Response:
  Returns the last 10 alerts.
 
